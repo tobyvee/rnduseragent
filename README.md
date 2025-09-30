@@ -1,4 +1,4 @@
-# rnduseragent
+# rnduseragent(1)
 
 `rnduseragent` is a small program written in bash that downloads the top 100 user agents from [https://github.com/microlinkhq/top-user-agents](https://github.com/microlinkhq/top-user-agents) and randomly selects one of them. 
 
