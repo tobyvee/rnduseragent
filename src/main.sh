@@ -126,7 +126,7 @@ function install {
   ln -s "../dist/latest" "/usr/local/bin/rnduseragent"
 }
 
-function main {
+function rnduseragent {
   getopts "$@"
   check_requirements
   set_filename
@@ -141,4 +141,4 @@ function main {
   fi
 }
 
-main "$@"
+rnduseragent "$@"
