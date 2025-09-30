@@ -1,0 +1,12 @@
+#!/bin/bash
+
+user_agents=(
+  "%%USER_AGENTS%%"
+)
+
+function get_random_user_agent() {
+  local index=$((RANDOM % ${#user_agents[@]}))
+  echo "${user_agents[$index]}"
+}
+
+get_random_user_agent
