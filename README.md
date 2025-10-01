@@ -1,5 +1,7 @@
 # rnduseragent(1)
 
+> If you're looking for a standalone binary take a look at my other project *[rndua](https://github.com/tobyvee/rndua)*
+
 `rnduseragent` is a small program written in bash that downloads the top 100 user agents from [https://github.com/microlinkhq/top-user-agents](https://github.com/microlinkhq/top-user-agents) and randomly selects one of them. 
 
 The selected user agent is then printed to the standard output.
@@ -31,8 +33,7 @@ Usage: $0 [options]
 
 1. Clone the repository
 2. Run `make build` in the repository root directory
-3. Run `make build` in the repository root directory
-4. The program is output to the `dist` directory. Inside this directory is a symlink name `latest` which always points to the latest version of the program.
+3. The program is output to the `dist` directory. Inside this directory is a symlink name `latest` which always points to the latest version of the program.
 
 #### Installing the program to the system $PATH
 
